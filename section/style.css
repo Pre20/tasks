@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(206, 204, 204);
+    margin: 8px;
+}
+#header {
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+#html {
+    background-color: ivory;
+    color: black;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#html h2 {
+    flex: 1;
+}
+
+#html p {
+    flex: 1;
+}
+
+.right {
+    background-color: rgb(121, 119, 119);
+    display: flex;
+    flex: 3;
+    gap: 20px;
+    padding: 10px;
+}
+
+#tag, #seo {
+    flex: 1;
+    padding: 10px;
+}
+
+
+#two {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+.css {
+    background-color: grey;
+    padding: 5px;
+    margin-top: 10px;
+}
